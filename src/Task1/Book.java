@@ -52,3 +52,15 @@ public class Book {
         System.out.println("Name book: "+name+"\n"+"Color: "+color+"\n"+"Data: "+age+"\n--------------------------");
     }
 }
+class BookTest {
+    public static void main(String[] args) {
+        book d1 = new book();
+        book d2 = new book("MUMU", "1854");
+        book d3 = new book("MUMU");
+        book d4 = new book("MUMU", "1854", "I.S.Turgenev");
+        System.out.println(d1);
+        System.out.println(d2);
+        System.out.println(d3);
+        System.out.println(d4);
+    }
+}
