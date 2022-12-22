@@ -31,3 +31,16 @@ public class Ball {
     public void intoBall(){
         System.out.println(tolshina+" and "+range+" ball");}
 }
+class BallTest {
+    public static void main(String[] args) {
+        Ball d1 = new Ball();
+        Ball d2 = new Ball("football","white");
+        Ball d3 = new Ball("football");
+        Ball d4 = new Ball("football","white","15");
+        System.out.println(d1);
+        System.out.println(d2);
+        System.out.println(d3);
+        System.out.println(d4);
+    }
+}
+
